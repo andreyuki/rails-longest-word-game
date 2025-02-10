@@ -13,3 +13,24 @@
  *= require_tree .
  *= require_self
  */
+.letters {
+  display: flex;
+  gap: 8px;
+}
+
+.letter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40px;
+  width: 40px;
+  background-color: #3498DC;
+  border: 1px solid #2980B9;
+  box-shadow: 2px 2px 0 rgba(0, 0, 0,0.2);
+}
+
+.letter span {
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFFFFF;
+}
